@@ -26,7 +26,7 @@
             android:id="@+id/wifiSwitch"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="@string/onClickButton"
+            android:onClick="onClickSwitch"
             android:paddingTop="15dp"
             android:paddingBottom="15dp"
             android:text="WIFI"
@@ -37,7 +37,7 @@
             android:id="@+id/bluetoothSwitch"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="@string/onClickButton"
+            android:onClick="onClickSwitch"
             android:paddingTop="15dp"
             android:paddingBottom="15dp"
             android:text="bluetooth"
@@ -64,7 +64,7 @@
             android:id="@+id/wifiToggle"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:onClick="@string/onToggleButton"
+            android:onClick="onClickToggle"
             android:text="ToggleButton"
             android:textOff="WIFI OFF" />
 
@@ -72,7 +72,7 @@
             android:id="@+id/bluetoothToggle"
             android:layout_width="202dp"
             android:layout_height="wrap_content"
-            android:onClick="@string/onToggleButton"
+            android:onClick="onClickToggle"
             android:text="ToggleButton"
             android:textOff="BLUETOOTH OFF" />
     </LinearLayout>
